@@ -1,0 +1,31 @@
+{
+  "name": "firebase-monorepo-boilerplate",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "A boilerplate for creating a monorepo environment for Firebase projects",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": "Daisho Yokoyama <daisyou117@gmail.com>",
+  "homepage": "https://github.com/DaishoYokoyama/firebase-monorepo-boilerplate#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaishoYokoyama/firebase-monorepo-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaishoYokoyama/firebase-monorepo-boilerplate/issues"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.3"
+  }
+}
